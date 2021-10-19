@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#html {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+#main {
+}
+#top {
+  height: 54px;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+#nav {
+  display: flex;
+  width: 100%;
+  padding: 8px 16px;
+  list-style: none;
+}
+
+#nav li {
+  width: 24.88%;
+  text-align: center;
+}
+
+#nav li:hover a {
+  color: #000;
+  background-color: #ccc;
+}
+
+#nav li a {
+  line-height: 38px;
+  height: 38px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+#header {
+}
+
+#header .content-header {
+  margin-top: 54px;
+  padding-top: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/TheCafe/assets/img/slider/coffeehouse.jpg");
+  filter: grayscale(50%);
+  /* min-height: 50%; */
+}
+
+#header .middle-text-header {
+  position: absolute;
+  line-height: 1.5;
+  color: #fff;
+  font-size: 90px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#header .bottom-left-header {
+  position: absolute;
+  bottom: 0;
+  padding: 12px 24px;
+}
+
+#header .left-text-header {
+  background-color: #000;
+  color: #fff;
+  line-height: 1.5;
+}
+/* abc */
+#header .bottom-right-header {
+  position: absolute;
+  bottom: 0;
+  padding: 12px 24px;
+  right: 0;
+}
+
+#header .right-text-header {
+  color: #fff;
+}
+
+#content {
+  background-color: #fdf5e6;
+  max-height: max-content;
+}
+
+#content .section-content,
+img {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  display: block;
+}
+
+#content .section-heading {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  background-color: #000;
+  display: inline-block;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 18px;
+}
+
+#content .about-text-1,
+#content .about-text-2,
+#content .about-text-3,
+#content .about-text-4,
+#content .about-text-5,
+#content .about-text-6 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: #000;
+  line-height: 1.5;
+  text-align: left;
+}
+
+#content .about-text-3-4 {
+  padding-left: 16px;
+  padding-right: 16px;
+  border-left: 6px solid rgb(90, 90, 90);
+  height: 100%;
+  background-color: #ccc;
+}
+
+#content .about-text-3 {
+  font-style: italic;
+}
+
+#content .all-menu,
+#content .all-map,
+#content .typing-map {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content .menu-content {
+  padding: 8px 16px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+#content .header-menu {
+  text-align: center;
+  background-color: #616161;
+  color: #fff;
+}
+
+#content .content-menu {
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 48px 16px;
+}
+
+#content .all-map {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 32px;
+}
+
+#content h5 {
+  font-weight: 400;
+
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+#content .content1-menu,
+#content .content2-menu,
+#content .content3-menu,
+#content .content4-menu,
+#content .content5-menu {
+  margin: 18px 0;
+  color: #757575;
+}
+
+#content .img-menu {
+  filter: grayscale(50%);
+
+  margin-top: 32px;
+}
+
+#content .all-map > p {
+  margin: 18px 0;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 350;
+}
+
+#content .map-img {
+  filter: grayscale(80%);
+}
+
+#content .special-content {
+  padding: 0 8px;
+  background-color: #000;
+  display: inline-block;
+  color: #fff;
+}
+
+#content .content-menu,
+#content .all-map > p {
+  margin: 18px 0;
+}
+
+#content .typing-1,
+#content .typing-2,
+#content .typing-3,
+#content .typing-4,
+#content .button {
+  width: 100%;
+  padding: 16px 8px;
+  border: 1px solid #ccc;
+}
+
+#content .margin-for-typing,
+#content .margin-for-button {
+  margin: 18px 0;
+}
+
+#content .button {
+  color: #fff;
+  background-color: #000;
+  width: calc(100% / 5);
+  height: calc(100% / 4);
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 13px;
+}
+
+#content .button:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+#footer {
+  height: 70px;
+  padding: 48px 0;
+  background-color: #f1f1f1;
+  text-align: center;
+}
